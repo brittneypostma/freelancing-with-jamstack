@@ -32,28 +32,29 @@
 	}
 
 	body {
-		@apply font-text text-lg lg:text-xl 2xl:text-2xl text-primary-100;
+		@apply font-text text-lg lg:text-xl text-primary-100 pt-10 sm:pt-20 lg:pt-36 3xl:pt-64;
+		background: no-repeat top / contain url(/static/images/jelly-drip.png);
 	}
 	h1 {
-		@apply font-heading text-xl lg:text-2xl text-center;
+		@apply font-heading text-3xl lg:text-5xl text-center;
 	}
 	h2 {
-		@apply font-subHeading text-lg lg:text-xl text-center;
+		@apply font-subHeading text-xl lg:text-2xl text-center;
 	}
 	h3 {
-		@apply font-subHeading text-base lg:text-lg text-center;
+		@apply font-subHeading text-lg lg:text-xl text-center;
 	}
 
 	a[role='button'],
 	button {
-		@apply p-4 text-white min-w-300 text-center block;
+		@apply p-4 text-white text-center block rounded-lg;
 	}
 
 	a[role='button'],
 	button {
 		background-size: 200% auto;
 		box-shadow: 0px 4px 4px rgba(65, 6, 66, 0.5), 0px -2px 8px rgba(147, 131, 159, 0.5);
-		transition: all 0.5s ease-in-out;
+		transition: all 0.3s ease-in-out;
 	}
 
 	a[role='button']:hover,

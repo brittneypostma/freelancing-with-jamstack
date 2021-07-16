@@ -7,7 +7,11 @@
 <svelte:head>
 	<title>{title}</title>
 </svelte:head>
-<h1>{title}</h1>
+<div class="lg:flex lg:space-x-5 items-center justify-between">
+	<img class="w-20 hidden lg:block" src="images/jammy.png" alt="Jammy" />
+	<h1>{title}</h1>
+	<img class="w-20 hidden lg:block" src="images/toasty.png" alt="Toasty" />
+</div>
 <Cards />
 <Tracks />
 
