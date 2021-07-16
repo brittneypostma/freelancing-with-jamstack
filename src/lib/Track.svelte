@@ -10,5 +10,5 @@
 		<h3>{title}</h3>
 	</a>
 
-	<p>*{desc}</p>
+	<p class="text-sm">*{desc}</p>
 </article>

@@ -1,16 +1,15 @@
 <script>
 	import Cards from '@lib/Cards.svelte'
 	import Tracks from '@lib/Tracks.svelte'
-	let title = 'Freelancing with Jamstack'
 </script>
 
 <svelte:head>
-	<title>{title}</title>
+	<title>Freelancing with Jamstack</title>
 </svelte:head>
-<div class="lg:flex lg:space-x-5 items-center justify-between">
-	<img class="w-20 hidden lg:block" src="images/jammy.png" alt="Jammy" />
-	<h1>{title}</h1>
-	<img class="w-20 hidden lg:block" src="images/toasty.png" alt="Toasty" />
+<div class="sm:flex sm:space-x-5 items-center justify-center lg:justify-between">
+	<img class="w-20 lg:w-36 hidden sm:block" src="images/jammy.png" alt="Jammy" />
+	<h1>Freelancing<br />with<br />Jamstack</h1>
+	<img class="w-20 lg:w-36 hidden sm:block" src="images/toasty.png" alt="Toasty" />
 </div>
 <Cards />
 <Tracks />

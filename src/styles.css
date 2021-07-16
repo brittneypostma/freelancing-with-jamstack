@@ -35,6 +35,13 @@
 		@apply font-text text-lg lg:text-xl text-primary-100 pt-10 sm:pt-20 lg:pt-36 3xl:pt-64;
 		background: no-repeat top / contain url(/static/images/jelly-drip.png);
 	}
+	/* Get rid of jelly drip */
+	@media (min-width: 3000px) {
+		body {
+			background: none;
+			padding-top: 2rem;
+		}
+	}
 	h1 {
 		@apply font-heading text-3xl lg:text-5xl text-center;
 	}
@@ -47,7 +54,7 @@
 
 	a[role='button'],
 	button {
-		@apply p-4 text-white text-center block rounded-lg;
+		@apply py-4 px-8 text-white text-center rounded-lg flex items-center whitespace-nowrap justify-center;
 	}
 
 	a[role='button'],

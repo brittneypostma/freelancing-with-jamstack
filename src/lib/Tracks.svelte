@@ -2,7 +2,7 @@
 	import Track from '@lib/Track.svelte'
 </script>
 
-<section class="grid gap-10 justify-center lg:flex lg:gap-0 lg:space-x-10 lg:justify-between">
+<section class="grid gap-5 justify-center lg:flex lg:gap-0 lg:space-x-10 lg:justify-between">
 	<Track
 		link="/"
 		color="purple-gradient"
