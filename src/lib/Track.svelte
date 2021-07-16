@@ -6,7 +6,7 @@
 </script>
 
 <article class="grid gap-2">
-	<a href={link} class={color} role="button">
+	<a href={link} class={`p-4 + ${color}`} role="button">
 		<h3>{title}</h3>
 	</a>
 
