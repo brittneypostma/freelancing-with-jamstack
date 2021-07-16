@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true
+</script>
+
 <script>
 	import Cards from '@lib/Cards.svelte'
 	import Tracks from '@lib/Tracks.svelte'
