@@ -2,7 +2,9 @@
 	import Card from '@lib/Card.svelte'
 </script>
 
-<section class="grid gap-8 lg:flex justify-center  lg:space-x-8 lg:justify-between">
+<section
+	class="grid grid-cols-1 gap-8 lg:flex justify-items-center  lg:space-x-8 lg:justify-center"
+>
 	<Card
 		mainTitle="The Freelancer's Guide"
 		subTitle="to the Business"
