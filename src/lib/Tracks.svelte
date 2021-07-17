@@ -6,7 +6,7 @@
 	<Track
 		link="/"
 		color="purple-gradient"
-		title="HTML Track"
+		title="Vanilla Track"
 		desc="Make money using just HTML, CSS, & Javascript"
 	/>
 	<Track
