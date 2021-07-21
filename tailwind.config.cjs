@@ -56,7 +56,7 @@ const config = {
 		},
 		extend: {
 			boxShadow: {
-				outline: '0 0 0 3px #FC5390',
+				outline: '0 0 0 3px #Fb755',
 				highlight: '0px 4px 4px rgba(65, 6, 66, 0.5), 0px -2px 8px rgba(147, 131, 159, 0.5)',
 				hover: '0px 2px 2px rgba(65, 6, 66, 0.5), 0px -2px 4px rgba(147, 131, 159, 0.5);'
 			},

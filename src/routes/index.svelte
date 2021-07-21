@@ -6,20 +6,39 @@
 </script>
 
 <script>
-	import Cards from '@lib/Cards.svelte'
-	import Tracks from '@lib/Tracks.svelte'
+	import SEO from '@lib/SEO.svelte'
+	import Cards from '@lib/cards/Cards.svelte'
+	import Tracks from '@lib/tracks/Tracks.svelte'
+	import Track from '@lib/tracks/Track.svelte'
 </script>
 
-<svelte:head>
-	<title>Freelancing with Jamstack</title>
-</svelte:head>
+<SEO title="Freelancing in Jamstack" />
 <div class="sm:flex sm:space-x-5 items-center justify-center lg:justify-between">
 	<img class="w-20 lg:w-36 hidden sm:block" src="images/jammy.png" alt="Jammy" />
 	<h1>Freelancing<br />with<br />Jamstack</h1>
 	<img class="w-20 lg:w-36 hidden sm:block" src="images/toasty.png" alt="Toasty" />
 </div>
 <Cards />
-<Tracks />
+<Tracks>
+	<Track
+	link="/vanilla"
+	color="purple-gradient"
+	title="Vanilla Track"
+	desc="Make money using just HTML, CSS, & Javascript"
+/>
+<Track
+	link="/svelte"
+	color="red-gradient"
+	title="Svelte Track"
+	desc="No prior framework knowledge required (easiest Start)"
+/>
+<Track
+	link="/react"
+	color="peach-gradient"
+	title="React Track"
+	desc="Basic React knowledge helpful, uses Next.JS"
+/>
+</Tracks>
 
 <style>
 	h1 {
