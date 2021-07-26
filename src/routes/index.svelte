@@ -7,38 +7,21 @@
 
 <script>
 	import SEO from '@lib/SEO.svelte'
-	import Cards from '@lib/cards/Cards.svelte'
+	import CoursesPage from '@lib/courses/CoursesPage.svelte'
 	import Tracks from '@lib/tracks/Tracks.svelte'
-	import Track from '@lib/tracks/Track.svelte'
 </script>
 
 <SEO title="Freelancing in Jamstack" />
-<div class="sm:flex sm:space-x-5 items-center justify-center lg:justify-between">
-	<img class="w-20 lg:w-36 hidden sm:block" src="images/jammy.png" alt="Jammy" />
-	<h1>Freelancing<br />with<br />Jamstack</h1>
-	<img class="w-20 lg:w-36 hidden sm:block" src="images/toasty.png" alt="Toasty" />
-</div>
-<Cards />
-<Tracks>
-	<Track
-	link="/vanilla"
-	color="purple-gradient"
-	title="Vanilla Track"
-	desc="Make money using just HTML, CSS, & Javascript"
-/>
-<Track
-	link="/svelte"
-	color="red-gradient"
-	title="Svelte Track"
-	desc="No prior framework knowledge required (easiest Start)"
-/>
-<Track
-	link="/react"
-	color="peach-gradient"
-	title="React Track"
-	desc="Basic React knowledge helpful, uses Next.JS"
-/>
-</Tracks>
+
+<main class="max-w-4xl mx-auto grid grid-cols-1 gap-10 lg:gap-20">
+	<div class="sm:flex sm:space-x-5 items-center justify-center lg:justify-between">
+		<img class="w-20 lg:w-36 hidden sm:block" src="images/jammy.png" alt="Jammy" />
+		<h1>Freelancing<br />with<br />Jamstack</h1>
+		<img class="w-20 lg:w-36 hidden sm:block" src="images/toasty.png" alt="Toasty" />
+	</div>
+	<CoursesPage />
+	<Tracks />
+</main>
 
 <style>
 	h1 {

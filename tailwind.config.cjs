@@ -66,6 +66,7 @@ const config = {
 			gridTemplateColumns: {
 				admin: 'minmax(64px, auto) 1fr;',
 				auto: 'auto',
+				bleed: '10vw minmax(0, 1fr) 10vw',
 				fit: 'repeat(auto-fit, minmax(300px, 1fr))',
 				hero: '1.5fr 2fr',
 				sidebar: '1fr minmax(200px, 25%)',
@@ -85,6 +86,7 @@ const config = {
 			},
 			minHeight: {
 				'1/2': '50%',
+				65: '65px',
 				300: '300px',
 				1080: '1080px'
 			},
@@ -92,6 +94,7 @@ const config = {
 				300: '300px'
 			},
 			maxWidth: {
+				'text': '500px',
 				'8xl': '2000px'
 			},
 			scale: {

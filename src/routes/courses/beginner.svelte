@@ -1,5 +1,5 @@
 <script>
-    import CardPage from '@lib/cards/CardPage.svelte'
+    import CardPage from '@lib/courses/CoursePage.svelte'
     const title = "The Beginner's Guide to the Web"
 </script>
 

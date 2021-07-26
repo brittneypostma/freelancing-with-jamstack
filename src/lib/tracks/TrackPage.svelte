@@ -1,12 +1,13 @@
 <script>
-    import SEO from '@lib/SEO.svelte'
-    export let title;
-    export let subtitle;
+	import SEO from '@lib/SEO.svelte'
+	export let title
+	export let subtitle
 </script>
 
+<SEO {title} />
 
-<SEO title={title} />
-
-<h1>{title}</h1>
-<h2>{subtitle}</h2>
-<slot></slot>
+<main class="max-w-text mx-auto grid gap-4 lg:gap-10">
+	<h1>{title}</h1>
+	<h2 class="max-w-text mx-auto">{subtitle}</h2>
+	<slot />
+</main>

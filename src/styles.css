@@ -32,16 +32,7 @@
 	}
 
 	body {
-		@apply font-text text-lg lg:text-xl text-primary-100 pt-10 pb-5 sm:pt-20 lg:pt-36 3xl:pt-64;
-		background: no-repeat top / contain url(/static/images/jelly-drip.svg);
-		background-size: 105% auto;
-	}
-	/* Get rid of jelly drip */
-	@media (min-width: 3000px) {
-		body {
-			background: none;
-			padding-top: 2rem;
-		}
+		@apply text-base lg:text-lg text-primary-100 pb-5;
 	}
 	h1 {
 		@apply font-heading text-2xl sm:text-3xl lg:text-5xl text-center;
@@ -75,6 +66,10 @@
 	button:focus {
 		@app
 	} */
+
+	p, span, blockquote {
+		@apply max-w-text mx-auto;
+	}
 
 	.purple-gradient {
 		background-image: radial-gradient(100% 100% at 25% 0%, #851586 0%, #2d0649 100%);
