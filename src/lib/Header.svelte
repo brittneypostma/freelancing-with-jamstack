@@ -1,7 +1,5 @@
 <header>
-	<div
-		class="flex py-4 items-center space-x-2 text-white mb-4 pb-10 lg:pb-24 xl:pb-10 max-w-4xl mx-auto 3xl:text-primary-100"
-	>
+	<div class="flex py-4 items-center space-x-2 mb-4 max-w-4xl mx-auto text-primary-100">
 		<a href="/">
 			<img class="w-6" src="/images/jammy.png" alt="Jammy logo" />
 		</a>
@@ -14,7 +12,7 @@
 </header>
 
 <style>
-	header {
+	/* header {
 		background: no-repeat top / contain url(/static/images/jelly-drip.svg);
 		background-size: 300% auto;
 	}
@@ -29,10 +27,10 @@
 		}
 	}
 	/* Get rid of jelly drip */
-	@media (min-width: 2000px) {
+	/* @media (min-width: 2000px) {
 		header {
 			background: none;
 			padding-top: 2rem;
 		}
-	}
+	}  */
 </style>
