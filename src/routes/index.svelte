@@ -13,15 +13,13 @@
 
 <SEO title="Freelancing in Jamstack" />
 
-<main class="max-w-4xl mx-auto grid grid-cols-1 gap-10 lg:gap-20">
-	<div class="sm:flex sm:space-x-5 items-center justify-center lg:justify-between">
-		<img class="w-20 lg:w-36 hidden sm:block" src="images/jammy.png" alt="Jammy" />
-		<h1>Freelancing<br />with<br />Jamstack</h1>
-		<img class="w-20 lg:w-36 hidden sm:block" src="images/toasty.png" alt="Toasty" />
-	</div>
-	<CoursesPage />
-	<Tracks />
-</main>
+<div class="sm:flex sm:space-x-5 items-center justify-center lg:justify-between">
+	<img class="w-20 lg:w-36 hidden sm:block" src="images/jammy.png" alt="Jammy" />
+	<h1>Freelancing<br />with<br />Jamstack</h1>
+	<img class="w-20 lg:w-36 hidden sm:block" src="images/toasty.png" alt="Toasty" />
+</div>
+<CoursesPage />
+<Tracks />
 
 <style>
 	h1 {
