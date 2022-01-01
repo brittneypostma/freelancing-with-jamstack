@@ -1,8 +1,8 @@
-<script>
+<!-- <script>
     export let title
     export let ogImg
     export let desc
-</script>
+</script> -->
 
 <svelte:head>
     <title>{title}</title>
