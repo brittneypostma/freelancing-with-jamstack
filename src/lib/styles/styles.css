@@ -5,28 +5,28 @@
 @layer base {
 	@font-face {
 		font-family: 'juicy-fruity';
-		src: url(/static/fonts/JuicyFruity.ttf) format('truetype');
+		src: url(/fonts/JuicyFruity.ttf) format('truetype');
 		font-display: swap;
 		font-weight: bold;
 	}
 
 	@font-face {
 		font-family: 'rammetto-one';
-		src: url(/static/fonts/RammettoOne.ttf) format('truetype');
+		src: url(/fonts/RammettoOne.ttf) format('truetype');
 		font-display: swap;
 		font-weight: normal;
 	}
 
 	@font-face {
 		font-family: 'amatic';
-		src: url(/static/fonts/Amatic-Regular.ttf) format('truetype');
+		src: url(/fonts/Amatic-Regular.ttf) format('truetype');
 		font-display: swap;
 		font-weight: bold;
 	}
 
 	@font-face {
 		font-family: 'amatic-bold';
-		src: url(/static/fonts/Amatic-Bold.ttf) format('truetype');
+		src: url(/fonts/Amatic-Bold.ttf) format('truetype');
 		font-display: swap;
 		font-weight: bold;
 	}

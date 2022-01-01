@@ -1,6 +1,6 @@
 <script>
-    import Courses from '@lib/courses/Courses.svelte'
-    import Course from '@lib/courses/Course.svelte'
+    import Courses from '@components/courses/Courses.svelte'
+    import Course from '@components/courses/Course.svelte'
 </script>
 
 <Courses>	

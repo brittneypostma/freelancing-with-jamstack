@@ -1,5 +1,5 @@
 <script>
-	import SEO from '@lib/SEO.svelte'
+	import SEO from '@layout/SEO.svelte'
 	export let title
 	export let subtitle
 </script>

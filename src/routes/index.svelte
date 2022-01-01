@@ -6,9 +6,9 @@
 </script>
 
 <script>
-	import SEO from '@lib/SEO.svelte'
-	import CoursesPage from '@lib/courses/CoursesPage.svelte'
-	import Tracks from '@lib/tracks/Tracks.svelte'
+	import SEO from '@layout/SEO.svelte'
+	import CoursesPage from '@components/courses/CoursesPage.svelte'
+	import Tracks from '@components/tracks/Tracks.svelte'
 </script>
 
 <SEO title="Freelancing in Jamstack" />
