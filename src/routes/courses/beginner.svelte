@@ -1,5 +1,5 @@
 <script>
-	import CoursePage from '@lib/courses/CoursePage.svelte'
+	import CoursePage from '@components/courses/CoursePage.svelte'
 	const title = "The Beginner's Guide to the Web"
 </script>
 

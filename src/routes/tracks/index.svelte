@@ -1,5 +1,5 @@
 <script>
-    import Tracks from '@lib/tracks/Tracks.svelte'
+    import Tracks from '@components/tracks/Tracks.svelte'
 </script>
 
 <Tracks />

@@ -1,5 +1,5 @@
 <script>
-    import SEO from '@lib/SEO.svelte'
+    import SEO from '@layout/SEO.svelte'
     const title = "The Freelancer's Guide to the Business"
 </script>
 <SEO title={title} />

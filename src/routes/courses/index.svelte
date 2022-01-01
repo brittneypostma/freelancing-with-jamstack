@@ -1,5 +1,5 @@
 <script>
-    import Courses from '@lib/courses/Courses.svelte'
+    import Courses from '@components/courses/Courses.svelte'
 </script>
 
 

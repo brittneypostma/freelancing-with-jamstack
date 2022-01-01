@@ -1,5 +1,5 @@
 <script>
-	import TrackPage from '@lib/tracks/TrackPage.svelte'
+	import TrackPage from '@components/tracks/TrackPage.svelte'
 	const title = 'Svelte Track'
 </script>
 
