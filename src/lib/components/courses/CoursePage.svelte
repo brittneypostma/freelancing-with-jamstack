@@ -1,7 +1,7 @@
 <script>
-	import SEO from '@lib/SEO.svelte'
-	import Tracks from '@lib/tracks/Tracks.svelte'
-	import Track from '@lib/tracks/Track.svelte'
+	import SEO from '@layout/SEO.svelte'
+	import Tracks from '@components/tracks/Tracks.svelte'
+	import Track from '@components/tracks/Track.svelte'
 	export let title
 	export let subtitle
 </script>

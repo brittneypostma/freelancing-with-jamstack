@@ -1,10 +1,3 @@
-<script context="module">
-	import { browser, dev } from '$app/env'
-	export const hydrate = dev
-	export const router = browser
-	export const prerender = true
-</script>
-
 <script>
 	import SEO from '@layout/SEO.svelte'
 	import CoursesPage from '@components/courses/CoursesPage.svelte'
